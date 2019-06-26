@@ -308,7 +308,8 @@
         <image name="theissues" width="419" height="179"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="NED-hl-IP9"/>
         <segue reference="VXI-eF-dWa"/>
-        <segue reference="sDT-MP-2bi"/>
+        <segue reference="vRr-Bt-813"/>
     </inferredMetricsTieBreakers>
 </document>
