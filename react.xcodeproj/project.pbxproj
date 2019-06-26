@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C68136EF22C408A30085DE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68136ED22C408A30085DE08 /* Main.storyboard */; };
 		C69021E622C3E71900FF21FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E522C3E71900FF21FF /* AppDelegate.swift */; };
 		C69021E822C3E71900FF21FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E722C3E71900FF21FF /* ViewController.swift */; };
-		C69021EB22C3E71A00FF21FF /* '.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69021E922C3E71A00FF21FF /* '.storyboard */; };
 		C69021EE22C3E71A00FF21FF /* react.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C69021EC22C3E71A00FF21FF /* react.xcdatamodeld */; };
 		C69021F022C3E71F00FF21FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69021EF22C3E71F00FF21FF /* Assets.xcassets */; };
 		C69021F322C3E71F00FF21FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69021F122C3E71F00FF21FF /* LaunchScreen.storyboard */; };
@@ -35,10 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C68136EE22C408A30085DE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C69021E222C3E71900FF21FF /* react.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69021E522C3E71900FF21FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69021E722C3E71900FF21FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C69021EA22C3E71A00FF21FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/'.storyboard"; sourceTree = "<group>"; };
 		C69021ED22C3E71A00FF21FF /* react.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = react.xcdatamodel; sourceTree = "<group>"; };
 		C69021EF22C3E71F00FF21FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69021F222C3E71F00FF21FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				C69021E522C3E71900FF21FF /* AppDelegate.swift */,
 				C69021E722C3E71900FF21FF /* ViewController.swift */,
-				C69021E922C3E71A00FF21FF /* '.storyboard */,
+				C68136ED22C408A30085DE08 /* Main.storyboard */,
 				C69021EF22C3E71F00FF21FF /* Assets.xcassets */,
 				C69021F122C3E71F00FF21FF /* LaunchScreen.storyboard */,
 				C69021F422C3E71F00FF21FF /* Info.plist */,
@@ -234,7 +234,7 @@
 			files = (
 				C69021F322C3E71F00FF21FF /* LaunchScreen.storyboard in Resources */,
 				C69021F022C3E71F00FF21FF /* Assets.xcassets in Resources */,
-				C69021EB22C3E71A00FF21FF /* '.storyboard in Resources */,
+				C68136EF22C408A30085DE08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +297,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C69021E922C3E71A00FF21FF /* '.storyboard */ = {
+		C68136ED22C408A30085DE08 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C69021EA22C3E71A00FF21FF /* Base */,
+				C68136EE22C408A30085DE08 /* Base */,
 			);
-			name = "'.storyboard";
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		C69021F122C3E71F00FF21FF /* LaunchScreen.storyboard */ = {
@@ -437,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6262DHPJG6;
+				DEVELOPMENT_TEAM = M6597H39S3;
 				INFOPLIST_FILE = react/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6262DHPJG6;
+				DEVELOPMENT_TEAM = M6597H39S3;
 				INFOPLIST_FILE = react/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
