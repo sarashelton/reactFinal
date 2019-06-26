@@ -437,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M6597H39S3;
+				DEVELOPMENT_TEAM = 6262DHPJG6;
 				INFOPLIST_FILE = react/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M6597H39S3;
+				DEVELOPMENT_TEAM = 6262DHPJG6;
 				INFOPLIST_FILE = react/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
