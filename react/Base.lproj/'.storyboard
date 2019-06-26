@@ -40,6 +40,21 @@
             </objects>
             <point key="canvasLocation" x="-702" y="77"/>
         </scene>
+        <!--login-->
+        <scene sceneID="4UR-mG-RfC">
+            <objects>
+                <viewController title="login" id="01s-fU-cUL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MG4-Su-e5K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KRy-0z-iNJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JOJ-fW-BYS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="-672"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="iA5-uM-Nuc">
             <objects>
@@ -69,6 +84,16 @@
                                 <rect key="frame" x="175" y="498" width="200" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="theissues"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfH-YL-Uju">
+                                <rect key="frame" x="231" y="470" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="login/sign uo"/>
+                                <connections>
+                                    <segue destination="01s-fU-cUL" kind="popoverPresentation" popoverAnchorView="EfH-YL-Uju" id="S1W-Rw-dbv">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
