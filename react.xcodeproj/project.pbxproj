@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		790EB4E522C5096B00459126 /* Frank_Ruhl_Libre in Resources */ = {isa = PBXBuildFile; fileRef = 790EB4E422C5096B00459126 /* Frank_Ruhl_Libre */; };
 		797D26F922C40F5A00214E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D26F722C40F5A00214E1C /* Main.storyboard */; };
 		C69021E622C3E71900FF21FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E522C3E71900FF21FF /* AppDelegate.swift */; };
 		C69021E822C3E71900FF21FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E722C3E71900FF21FF /* ViewController.swift */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		790EB4E422C5096B00459126 /* Frank_Ruhl_Libre */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frank_Ruhl_Libre; path = ../../../../Downloads/Frank_Ruhl_Libre; sourceTree = "<group>"; };
 		797D26F822C40F5A00214E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C69021E222C3E71900FF21FF /* react.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69021E522C3E71900FF21FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				C69021E522C3E71900FF21FF /* AppDelegate.swift */,
 				C69021E722C3E71900FF21FF /* ViewController.swift */,
 				797D26F722C40F5A00214E1C /* Main.storyboard */,
-				790EB4E422C5096B00459126 /* Frank_Ruhl_Libre */,
 				C69021EF22C3E71F00FF21FF /* Assets.xcassets */,
 				C69021F122C3E71F00FF21FF /* LaunchScreen.storyboard */,
 				C69021F422C3E71F00FF21FF /* Info.plist */,
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C69021F322C3E71F00FF21FF /* LaunchScreen.storyboard in Resources */,
-				790EB4E522C5096B00459126 /* Frank_Ruhl_Libre in Resources */,
 				C69021F022C3E71F00FF21FF /* Assets.xcassets in Resources */,
 				797D26F922C40F5A00214E1C /* Main.storyboard in Resources */,
 			);
