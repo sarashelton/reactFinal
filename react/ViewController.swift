@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UINavigationControllerDelegate {
     
     @IBOutlet var firstDropDown: [UIButton]!
     override func viewDidLoad() {
@@ -26,8 +26,14 @@ class ViewController: UIViewController {
         }
     }
     
+//    enum Reacts: String {
+//        case .get
+//    }
 
     @IBAction func firstDropTapped(_ sender: UIButton) {
+//        guard let title = sender.currentTitle else {
+//            return
+//        }
     }
 }
 

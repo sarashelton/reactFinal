@@ -51,7 +51,7 @@
                                                             <action selector="firstHandleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAj-1l-Xja"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzU-uc-N6b">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzU-uc-N6b">
                                                         <rect key="frame" x="0.0" y="30" width="375" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="T2W-9A-z7t"/>
@@ -61,12 +61,11 @@
                                                             <color key="titleColor" red="0.001519458705" green="0.0" blue="0.84771841839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="firstDropDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vu6-x0-Yi0"/>
                                                             <action selector="firstDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DlZ-cO-OXe"/>
-                                                            <segue destination="98W-L4-zFh" kind="show" id="YQF-tD-ryp"/>
+                                                            <segue destination="98W-L4-zFh" kind="show" id="aa7-4O-3ch"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHa-Ck-MDr">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YHa-Ck-MDr">
                                                         <rect key="frame" x="0.0" y="60" width="375" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="FTB-Qn-7W0"/>
@@ -77,10 +76,9 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="firstDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D4D-mN-T7S"/>
-                                                            <segue destination="iXF-pD-L6M" kind="show" id="11F-A7-YKG"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXq-Jk-Jzo">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXq-Jk-Jzo">
                                                         <rect key="frame" x="0.0" y="90" width="375" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="EeJ-XO-wbb"/>
@@ -91,10 +89,9 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="firstDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wH-t3-qE7"/>
-                                                            <segue destination="cj6-fQ-CGr" kind="show" id="Lrk-5X-go2"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBV-mi-J0K">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VBV-mi-J0K">
                                                         <rect key="frame" x="0.0" y="120" width="375" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="KXD-FH-it2"/>
@@ -105,7 +102,6 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="firstDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oC0-B6-MNW"/>
-                                                            <segue destination="RpA-Kz-7ut" kind="show" id="7uJ-QK-f44"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -368,51 +364,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Eq-Cx-rh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2032" y="-1622"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="S6V-Nl-iNC">
-            <objects>
-                <viewController id="iXF-pD-L6M" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2UK-Ue-Vyu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="SCf-ed-Opu"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oGK-QJ-sdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2807" y="-1627"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="EBC-HV-fdA">
-            <objects>
-                <viewController id="cj6-fQ-CGr" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="j0V-qD-bCg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="uvZ-OP-9hC"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="loM-zD-7NV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3601" y="-1627"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="noA-ls-q28">
-            <objects>
-                <viewController id="RpA-Kz-7ut" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CVM-8y-nTh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="n4C-A9-XM7"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tsj-pU-lQ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4463" y="-1632"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iA5-uM-Nuc">
