@@ -16,9 +16,6 @@
         <array key="FrankRuhlLibre-Medium.ttf">
             <string>FrankRuhlLibre-Medium</string>
         </array>
-        <array key="FrankRuhlLibre-Regular.ttf">
-            <string>FrankRuhlLibre-Regular</string>
-        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -36,88 +33,83 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="v8M-ry-I2b">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="MeU-pa-8YK">
-                                                        <rect key="frame" x="187.5" y="0.0" width="0.0" height="0.0"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="123" translatesAutoresizingMaskIntoConstraints="NO" id="MeU-pa-8YK">
+                                                        <rect key="frame" x="125" y="0.0" width="125" height="50"/>
                                                         <subviews>
-                                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" verticalHuggingPriority="100" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3K-OL-Q0R">
-                                                                <rect key="frame" x="0.0" y="0.0" width="133" height="30"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tx5-N8-Fmj">
+                                                                <rect key="frame" x="0.0" y="0.0" width="125" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="50" id="nUG-6g-Msd"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                                <state key="normal" title="women's rights">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3K-OL-Q0R">
+                                                                <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="30" id="BPz-WT-P68"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="17"/>
                                                                 <state key="normal" title="get informed">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3X-3o-fWw">
-                                                                <rect key="frame" x="0.0" y="0.0" width="133" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="30" id="TzC-mk-mBc"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="17"/>
                                                                 <state key="normal" title="get involved">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYp-qA-nip">
-                                                                <rect key="frame" x="0.0" y="0.0" width="133" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="125" height="50"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="30" id="EAB-eA-igp"/>
+                                                                    <constraint firstAttribute="height" constant="50" id="EAB-eA-igp"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="17"/>
                                                                 <state key="normal" title="upcoming">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNo-sE-PFM">
-                                                                <rect key="frame" x="0.0" y="0.0" width="133" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="125" height="50"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="30" id="8K8-wL-ffM"/>
+                                                                    <constraint firstAttribute="height" constant="50" id="8K8-wL-ffM"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="17"/>
                                                                 <state key="normal" title="wear your support">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ka2-y5-7dZ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="133" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="125" height="50"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="30" id="nuR-tE-4Y2"/>
+                                                                    <constraint firstAttribute="height" constant="50" id="nuR-tE-4Y2"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="17"/>
                                                                 <state key="normal" title="post your support">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                             </button>
                                                         </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="a3X-3o-fWw" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="6M9-BA-f3i"/>
+                                                            <constraint firstItem="ka2-y5-7dZ" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="OfD-CO-jKt"/>
+                                                            <constraint firstItem="P3K-OL-Q0R" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="lLR-Cw-iDd"/>
+                                                            <constraint firstItem="gNo-sE-PFM" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="x8s-cD-AXI"/>
+                                                            <constraint firstItem="KYp-qA-nip" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="xnK-JQ-nQH"/>
+                                                        </constraints>
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tx5-N8-Fmj">
-                                                <rect key="frame" x="121" y="38" width="133" height="50"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="nUG-6g-Msd"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="FrankRuhlLibre-Black" family="Frank Ruhl Libre" pointSize="17"/>
-                                                <state key="normal" title="women's rights">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.92156862750000001" green="1" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstItem="v8M-ry-I2b" firstAttribute="top" secondItem="cp3-hb-mkF" secondAttribute="top" id="3Qo-pp-QN7"/>
-                                            <constraint firstItem="gNo-sE-PFM" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="5FT-aa-9aV"/>
-                                            <constraint firstItem="KYp-qA-nip" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="8Ii-l2-Lc9"/>
-                                            <constraint firstItem="a3X-3o-fWw" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="COa-jQ-Vu7"/>
-                                            <constraint firstItem="ka2-y5-7dZ" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="HUu-Lr-4HJ"/>
-                                            <constraint firstItem="Tx5-N8-Fmj" firstAttribute="centerX" secondItem="v8M-ry-I2b" secondAttribute="centerX" id="YdS-Em-WZq"/>
                                             <constraint firstAttribute="trailing" secondItem="v8M-ry-I2b" secondAttribute="trailing" id="crh-JO-zCZ"/>
                                             <constraint firstItem="v8M-ry-I2b" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="fKb-wF-6N5"/>
-                                            <constraint firstItem="P3K-OL-Q0R" firstAttribute="width" secondItem="Tx5-N8-Fmj" secondAttribute="width" id="mdr-uk-Uc0"/>
-                                            <constraint firstItem="Tx5-N8-Fmj" firstAttribute="top" secondItem="v8M-ry-I2b" secondAttribute="bottom" constant="38" id="plX-Yy-pVV"/>
                                             <constraint firstAttribute="height" constant="1000" id="sNn-vD-XIa"/>
                                         </constraints>
                                     </view>
@@ -130,7 +122,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.92156862750000001" green="1" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6tp-Sd-Vrx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5eo-D3-Y5o"/>
                             <constraint firstItem="6tp-Sd-Vrx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OZo-hN-buq"/>
@@ -196,7 +188,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type email here" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="h39-x6-xEt">
-                                <rect key="frame" x="29" y="245" width="316" height="30"/>
+                                <rect key="frame" x="29" y="249" width="316" height="30"/>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
