@@ -180,16 +180,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3i-Dh-cGV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3i-Dh-cGV">
                                 <rect key="frame" x="29" y="301" width="176" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrankRuhlLibre-Medium" family="Frank Ruhl Libre" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rF-Om-N9T">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rF-Om-N9T">
                                 <rect key="frame" x="139" y="406" width="80" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrankRuhlLibre-Black" family="Frank Ruhl Libre" pointSize="30"/>
                                 <state key="normal" title="login">
                                     <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -198,23 +196,22 @@
                                     <segue destination="xza-kk-zSh" kind="show" id="cWg-E1-huQ"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type email here" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="h39-x6-xEt">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type email here" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="h39-x6-xEt">
                                 <rect key="frame" x="29" y="245" width="316" height="30"/>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type password here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htg-rV-T2x">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type password here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htg-rV-T2x">
                                 <rect key="frame" x="29" y="348" width="316" height="30"/>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5Ta-y9-YXu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5Ta-y9-YXu">
                                 <rect key="frame" x="282" y="33" width="63" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="15"/>
                                 <state key="normal" title="sign up instead!">
                                     <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -223,9 +220,8 @@
                                     <segue destination="hxZ-qx-Tfr" kind="show" id="clZ-tP-4OI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQx-02-HpP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQx-02-HpP">
                                 <rect key="frame" x="29" y="198" width="133" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FrankRuhlLibre-Medium" family="Frank Ruhl Libre" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -233,10 +229,23 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="htg-rV-T2x" firstAttribute="leading" secondItem="mQx-02-HpP" secondAttribute="leading" id="2G4-pd-3lX"/>
+                            <constraint firstItem="htg-rV-T2x" firstAttribute="leading" secondItem="U3i-Dh-cGV" secondAttribute="leading" id="FDl-yc-o55"/>
+                            <constraint firstItem="0rF-Om-N9T" firstAttribute="leading" secondItem="KRy-0z-iNJ" secondAttribute="leading" constant="139" id="Ieb-01-oC2"/>
+                            <constraint firstItem="htg-rV-T2x" firstAttribute="trailing" secondItem="5Ta-y9-YXu" secondAttribute="trailing" id="Jhw-53-T5a"/>
+                            <constraint firstItem="h39-x6-xEt" firstAttribute="top" secondItem="mQx-02-HpP" secondAttribute="bottom" constant="8" symbolic="YES" id="K8a-L4-dl4"/>
+                            <constraint firstItem="KRy-0z-iNJ" firstAttribute="trailing" secondItem="0rF-Om-N9T" secondAttribute="trailing" constant="156" id="U3b-k6-1J4"/>
                             <constraint firstItem="htg-rV-T2x" firstAttribute="leading" secondItem="KRy-0z-iNJ" secondAttribute="leading" constant="29" id="W0q-wf-Pgw"/>
                             <constraint firstItem="KRy-0z-iNJ" firstAttribute="trailing" secondItem="htg-rV-T2x" secondAttribute="trailing" constant="30" id="aMJ-vV-OA0"/>
+                            <constraint firstItem="htg-rV-T2x" firstAttribute="top" secondItem="U3i-Dh-cGV" secondAttribute="bottom" constant="8" symbolic="YES" id="bgA-R8-t6t"/>
+                            <constraint firstItem="KRy-0z-iNJ" firstAttribute="bottom" secondItem="0rF-Om-N9T" secondAttribute="bottom" constant="226" id="d6N-t8-GEq"/>
+                            <constraint firstItem="5Ta-y9-YXu" firstAttribute="top" secondItem="KRy-0z-iNJ" secondAttribute="top" constant="13" id="d9P-pN-1eZ"/>
                             <constraint firstItem="h39-x6-xEt" firstAttribute="leading" secondItem="KRy-0z-iNJ" secondAttribute="leading" constant="29" id="d9d-af-T4B"/>
+                            <constraint firstItem="0rF-Om-N9T" firstAttribute="top" secondItem="htg-rV-T2x" secondAttribute="bottom" constant="28" id="fBh-5M-Mwr"/>
                             <constraint firstItem="KRy-0z-iNJ" firstAttribute="trailing" secondItem="h39-x6-xEt" secondAttribute="trailing" constant="30" id="gUk-UI-JDL"/>
+                            <constraint firstItem="U3i-Dh-cGV" firstAttribute="top" secondItem="h39-x6-xEt" secondAttribute="bottom" constant="26" id="hRr-oL-aKD"/>
+                            <constraint firstAttribute="bottom" secondItem="htg-rV-T2x" secondAttribute="bottom" constant="289" id="lzw-cI-owD"/>
+                            <constraint firstItem="5Ta-y9-YXu" firstAttribute="leading" secondItem="KRy-0z-iNJ" secondAttribute="leading" constant="282" id="yUo-rB-OCQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KRy-0z-iNJ"/>
                     </view>
