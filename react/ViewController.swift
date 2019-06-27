@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         case getinvolved = "get involved"
     }
     @IBAction func buttonTapped(_ sender: UIButton) {
-        guard let title = sender.currentTitle else{
+        guard let title = sender.currentTitle, let choices = Pages(rawValue: title) else{
             return
         }
     }
