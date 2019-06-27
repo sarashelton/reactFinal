@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UINavigationControllerDelegate {
     
     @IBOutlet var firstDropDown: [UIButton]!
+    @IBOutlet var secondDropDown: [UIButton]!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -21,19 +22,24 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
                 , animations: {
                     button.isHidden = !button.isHidden
                     self.view.layoutIfNeeded()
-
             })
         }
     }
     
-//    enum Reacts: String {
-//        case .get
-//    }
+    @IBAction func secondHandleSelection(_ sender: UIButton) {
+        secondDropDown.forEach { (button2) in
+            UIView.animate(withDuration: 0.3
+                , animations: {
+                    button2.isHidden = !button2.isHidden
+                    self.view.layoutIfNeeded()
+            })
+        }
+    }
 
+    
     @IBAction func firstDropTapped(_ sender: UIButton) {
-//        guard let title = sender.currentTitle else {
-//            return
-//        }
+    }
+    @IBAction func secondDropTapped(_ sender: UIButton) {
     }
 }
 
