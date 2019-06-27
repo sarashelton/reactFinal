@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="FrankRuhlLibre-Bold.ttf">
+            <string>FrankRuhlLibre-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -100,13 +105,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3i-Dh-cGV">
-                                <rect key="frame" x="43" y="258" width="105" height="24"/>
+                                <rect key="frame" x="43" y="255" width="105" height="24"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="21"/>
                                 <color key="textColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rF-Om-N9T">
-                                <rect key="frame" x="161" y="452" width="53" height="35"/>
+                                <rect key="frame" x="161" y="449" width="53" height="35"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
                                 <state key="normal" title="login">
                                     <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -116,13 +121,13 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="h39-x6-xEt">
-                                <rect key="frame" x="29" y="178" width="316" height="21"/>
+                                <rect key="frame" x="29" y="175" width="316" height="21"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htg-rV-T2x">
-                                <rect key="frame" x="29" y="298" width="316" height="21"/>
+                                <rect key="frame" x="29" y="295" width="316" height="21"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -138,8 +143,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQx-02-HpP">
-                                <rect key="frame" x="43" y="147" width="58" height="23"/>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                                <rect key="frame" x="43" y="147" width="58" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -181,7 +186,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RB-m2-Yvm">
-                                <rect key="frame" x="150" y="489" width="75" height="35"/>
+                                <rect key="frame" x="150" y="492" width="75" height="35"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
                                 <state key="normal" title="sign up">
                                     <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -203,8 +208,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="confirm password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMP-1n-fPh">
-                                <rect key="frame" x="16" y="334" width="188" height="23"/>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                                <rect key="frame" x="16" y="334" width="188" height="26"/>
+                                <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -221,7 +226,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r4Y-CP-u1t">
-                                <rect key="frame" x="16" y="383" width="343" height="21"/>
+                                <rect key="frame" x="16" y="386" width="343" height="21"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -350,7 +355,7 @@
         <image name="theissues" width="419" height="179"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cWg-E1-huQ"/>
+        <segue reference="ILI-bc-Jts"/>
         <segue reference="Fsg-3b-LLs"/>
         <segue reference="V2s-j7-Dj3"/>
     </inferredMetricsTieBreakers>
