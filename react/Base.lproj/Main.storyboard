@@ -343,8 +343,7 @@
         <image name="theissues" width="419" height="179"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="clZ-tP-4OI"/>
-        <segue reference="cWg-E1-huQ"/>
+        <segue reference="ILI-bc-Jts"/>
         <segue reference="Fsg-3b-LLs"/>
         <segue reference="V2s-j7-Dj3"/>
     </inferredMetricsTieBreakers>

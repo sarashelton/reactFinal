@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		790EB4E522C5096B00459126 /* Frank_Ruhl_Libre in Resources */ = {isa = PBXBuildFile; fileRef = 790EB4E422C5096B00459126 /* Frank_Ruhl_Libre */; };
+		790EB4E622C50CDF00459126 /* Frank_Ruhl_Libre in Resources */ = {isa = PBXBuildFile; fileRef = 790EB4E422C5096B00459126 /* Frank_Ruhl_Libre */; };
+		790EB4E722C50CE000459126 /* Frank_Ruhl_Libre in Resources */ = {isa = PBXBuildFile; fileRef = 790EB4E422C5096B00459126 /* Frank_Ruhl_Libre */; };
 		797D26F922C40F5A00214E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D26F722C40F5A00214E1C /* Main.storyboard */; };
 		C69021E622C3E71900FF21FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E522C3E71900FF21FF /* AppDelegate.swift */; };
 		C69021E822C3E71900FF21FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E722C3E71900FF21FF /* ViewController.swift */; };
@@ -246,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790EB4E622C50CDF00459126 /* Frank_Ruhl_Libre in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790EB4E722C50CE000459126 /* Frank_Ruhl_Libre in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
