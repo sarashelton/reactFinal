@@ -120,7 +120,7 @@
                                                 <color key="backgroundColor" red="1" green="0.85490196078431369" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="URU-OR-sNr">
-                                                <rect key="frame" x="0.0" y="75" width="375" height="110"/>
+                                                <rect key="frame" x="0.0" y="75" width="375" height="230"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lr3-DD-GEA">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -137,8 +137,8 @@
                                                             <action selector="secondHandleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FgU-ks-2oI"/>
                                                         </connections>
                                                     </button>
-                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90n-wY-aro">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90n-wY-aro">
+                                                        <rect key="frame" x="0.0" y="110" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="I88-Ua-vxw"/>
@@ -150,10 +150,11 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="secondDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pIb-Gq-6X2"/>
+                                                            <segue destination="D3X-0D-5iJ" kind="show" id="8lP-SY-e7U"/>
                                                         </connections>
                                                     </button>
-                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIf-2d-u7V">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIf-2d-u7V">
+                                                        <rect key="frame" x="0.0" y="140" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="CLw-qd-C65"/>
@@ -163,9 +164,12 @@
                                                         <state key="normal" title="get involved">
                                                             <color key="titleColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="H8E-9P-pXx" kind="show" id="irc-Jx-wKi"/>
+                                                        </connections>
                                                     </button>
-                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2E-im-1rb">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2E-im-1rb">
+                                                        <rect key="frame" x="0.0" y="170" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="rKF-s1-hno"/>
@@ -175,9 +179,12 @@
                                                         <state key="normal" title="upcoming events">
                                                             <color key="titleColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="Auc-DK-qdt" kind="show" id="2eN-0i-MLs"/>
+                                                        </connections>
                                                     </button>
-                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG1-Zf-SrG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG1-Zf-SrG">
+                                                        <rect key="frame" x="0.0" y="200" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="2om-E2-rFY"/>
@@ -187,13 +194,16 @@
                                                         <state key="normal" title="wear your support">
                                                             <color key="titleColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="3Es-hR-AjE" kind="show" id="4bz-jo-KeO"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.85882352941176465" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ppO-9E-GaL">
-                                                <rect key="frame" x="0.0" y="185" width="375" height="110"/>
+                                                <rect key="frame" x="0.0" y="305" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1c-bA-qaK">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -273,7 +283,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="raU-Yg-kVz">
-                                                <rect key="frame" x="0.0" y="295" width="375" height="110"/>
+                                                <rect key="frame" x="0.0" y="415" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xn9-Eb-d3W">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -360,7 +370,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lWz-Yl-9z8">
-                                                <rect key="frame" x="0.0" y="405" width="375" height="110"/>
+                                                <rect key="frame" x="0.0" y="525" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZA-Ss-wy9">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -441,7 +451,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Jhl-jP-TQf">
-                                                <rect key="frame" x="0.0" y="515" width="375" height="110"/>
+                                                <rect key="frame" x="0.0" y="635" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJ7-Ea-rgr">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -799,6 +809,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xN1-oY-mEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1103.2" y="-670.61469265367316"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8ss-dl-gcH">
+            <objects>
+                <viewController id="D3X-0D-5iJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lii-Sr-cTY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QD9-zJ-lFh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZSa-77-AGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2026" y="-882"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="G6f-CL-axL">
+            <objects>
+                <viewController id="H8E-9P-pXx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Axf-LI-Rgt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hUZ-Hr-0mj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Zb-IB-A9H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2694" y="-885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZZ7-d2-fII">
+            <objects>
+                <viewController id="Auc-DK-qdt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="36R-TX-hTa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Alu-W1-EfX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sTV-bn-ZcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3362" y="-882"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6h2-9K-YMC">
+            <objects>
+                <viewController id="3Es-hR-AjE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QJX-NJ-Xgc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mjK-ov-T2M"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f0P-0B-Lau" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4023" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ccm-tv-wdm">
