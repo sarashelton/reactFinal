@@ -35,16 +35,19 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tp-Sd-Vrx">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cp3-hb-mkF">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cp3-hb-mkF">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dKZ-Ex-9XV">
-                                                <rect key="frame" x="0.0" y="30" width="375" height="225"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dKZ-Ex-9XV">
+                                                <rect key="frame" x="0.0" y="30" width="375" height="90"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIf-8y-cJK">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                                         <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="90" id="A8g-xr-bw2"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="25"/>
                                                         <state key="normal" title="Women's Rights">
                                                             <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -52,13 +55,14 @@
                                                             <action selector="firstHandleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAj-1l-Xja"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzU-uc-N6b">
-                                                        <rect key="frame" x="0.0" y="45" width="375" height="45"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzU-uc-N6b">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="4i4-A0-POb"/>
                                                             <constraint firstAttribute="width" constant="375" id="Am5-eL-6QJ"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get informed">
                                                             <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -67,13 +71,14 @@
                                                             <segue destination="98W-L4-zFh" kind="show" id="Onm-oF-cQC"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YHa-Ck-MDr">
-                                                        <rect key="frame" x="0.0" y="90" width="375" height="45"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YHa-Ck-MDr">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="8kI-Io-oZI"/>
+                                                            <constraint firstAttribute="height" constant="30" id="boG-gO-G9Y"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get involved">
                                                             <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -82,13 +87,14 @@
                                                             <segue destination="hdH-xa-Nev" kind="show" id="acF-gF-clE"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXq-Jk-Jzo">
-                                                        <rect key="frame" x="0.0" y="135" width="375" height="45"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXq-Jk-Jzo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="8Ef-ke-AVe"/>
                                                             <constraint firstAttribute="width" constant="375" id="irE-BP-AFZ"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
                                                             <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -97,13 +103,14 @@
                                                             <segue destination="93W-LT-QX8" kind="show" id="oef-hE-i92"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VBV-mi-J0K">
-                                                        <rect key="frame" x="0.0" y="180" width="375" height="45"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VBV-mi-J0K">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="1" green="0.85490196078431369" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="WUE-nx-KyO"/>
                                                             <constraint firstAttribute="width" constant="375" id="etK-Qk-rpZ"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
                                                             <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -116,7 +123,7 @@
                                                 <color key="backgroundColor" red="1" green="0.85490196078431369" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="URU-OR-sNr">
-                                                <rect key="frame" x="0.0" y="255" width="375" height="230"/>
+                                                <rect key="frame" x="0.0" y="120" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lr3-DD-GEA">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -125,7 +132,7 @@
                                                             <constraint firstAttribute="width" constant="375" id="Eyy-FG-20b"/>
                                                             <constraint firstAttribute="height" constant="110" id="ySF-AI-c9f"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="25"/>
                                                         <state key="normal" title="Environmental Issues">
                                                             <color key="titleColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -133,14 +140,14 @@
                                                             <action selector="secondHandleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FgU-ks-2oI"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90n-wY-aro">
-                                                        <rect key="frame" x="0.0" y="110" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90n-wY-aro">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="I88-Ua-vxw"/>
                                                             <constraint firstAttribute="width" constant="375" id="XGg-1x-8G3"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get informed">
                                                             <color key="titleColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -149,14 +156,14 @@
                                                             <segue destination="D3X-0D-5iJ" kind="show" id="8lP-SY-e7U"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIf-2d-u7V">
-                                                        <rect key="frame" x="0.0" y="140" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIf-2d-u7V">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="CLw-qd-C65"/>
                                                             <constraint firstAttribute="width" constant="375" id="Zt0-Si-ujl"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get involved">
                                                             <color key="titleColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -164,42 +171,36 @@
                                                             <segue destination="H8E-9P-pXx" kind="show" id="irc-Jx-wKi"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2E-im-1rb">
-                                                        <rect key="frame" x="0.0" y="170" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2E-im-1rb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="rKF-s1-hno"/>
                                                             <constraint firstAttribute="width" constant="375" id="yTJ-gY-MOX"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
                                                             <color key="titleColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
-                                                        <connections>
-                                                            <segue destination="Auc-DK-qdt" kind="show" id="2eN-0i-MLs"/>
-                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG1-Zf-SrG">
-                                                        <rect key="frame" x="0.0" y="200" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG1-Zf-SrG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="2om-E2-rFY"/>
                                                             <constraint firstAttribute="height" constant="30" id="u4D-9q-Ciq"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
                                                             <color key="titleColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
-                                                        <connections>
-                                                            <segue destination="3Es-hR-AjE" kind="show" id="4bz-jo-KeO"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.85882352941176465" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ppO-9E-GaL">
-                                                <rect key="frame" x="0.0" y="485" width="375" height="230"/>
+                                                <rect key="frame" x="0.0" y="230" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1c-bA-qaK">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -208,7 +209,7 @@
                                                             <constraint firstAttribute="height" constant="110" id="JN6-Me-cGz"/>
                                                             <constraint firstAttribute="width" constant="375" id="zW0-i6-6WW"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="25"/>
                                                         <state key="normal" title="lgbt+">
                                                             <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -216,44 +217,46 @@
                                                             <action selector="thirdHandleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VRx-68-7eY"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TM-rD-DEf">
-                                                        <rect key="frame" x="0.0" y="110" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TM-rD-DEf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="QtR-8C-Z6D"/>
                                                             <constraint firstAttribute="width" constant="375" id="mvN-nr-Vte"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get informed">
                                                             <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="thirdDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfl-BD-Iso"/>
+                                                            <segue destination="RKT-dg-veg" kind="show" id="Jlp-yX-ocB"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2h-70-3n5">
-                                                        <rect key="frame" x="0.0" y="140" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2h-70-3n5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="HUi-S5-fU8"/>
                                                             <constraint firstAttribute="width" constant="375" id="hpZ-SW-dzU"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get involved">
                                                             <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="thirdDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qom-pR-8ee"/>
+                                                            <segue destination="0oU-ct-DW5" kind="show" id="ZUm-MO-cS2"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRo-jJ-g51">
-                                                        <rect key="frame" x="0.0" y="170" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRo-jJ-g51">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="WHS-BX-XCB"/>
                                                             <constraint firstAttribute="width" constant="375" id="nGR-h8-AYM"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
                                                             <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -261,14 +264,14 @@
                                                             <action selector="thirdDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="olc-gv-rdj"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um0-Qx-OOZ">
-                                                        <rect key="frame" x="0.0" y="200" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um0-Qx-OOZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="lBY-tm-n19"/>
                                                             <constraint firstAttribute="height" constant="30" id="yPR-U8-uE5"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
                                                             <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -279,7 +282,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="raU-Yg-kVz">
-                                                <rect key="frame" x="0.0" y="715" width="375" height="230"/>
+                                                <rect key="frame" x="0.0" y="340" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xn9-Eb-d3W">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -287,7 +290,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="110" id="FCh-1b-fVW"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="25"/>
                                                         <state key="normal" title="international">
                                                             <color key="titleColor" red="0.6588235294117647" green="0.0" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -295,41 +298,43 @@
                                                             <action selector="fourthHandleSection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9P-E6-ckp"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjQ-Jw-DUh">
-                                                        <rect key="frame" x="0.0" y="110" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjQ-Jw-DUh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.96078431372549022" green="1" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="Z7O-fx-FLV"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get informed">
                                                             <color key="titleColor" red="0.6588235294" green="0.0" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="fourthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MpN-h3-ZTi"/>
+                                                            <segue destination="fye-XK-SzB" kind="show" id="jEI-RK-fbr"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4om-WQ-6dB">
-                                                        <rect key="frame" x="0.0" y="140" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4om-WQ-6dB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.96078431372549022" green="1" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="2q3-Fm-4Ei"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get involved">
                                                             <color key="titleColor" red="0.6588235294" green="0.0" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="fourthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hb8-Op-ps5"/>
+                                                            <segue destination="hJE-OE-uh3" kind="showDetail" id="dlx-g0-HSC"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxB-36-zg6">
-                                                        <rect key="frame" x="0.0" y="170" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxB-36-zg6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.96078431372549022" green="1" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="ZmP-g1-LUe"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
                                                             <color key="titleColor" red="0.6588235294" green="0.0" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -337,13 +342,13 @@
                                                             <action selector="fourthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RcG-Fa-zgG"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgW-z0-RfU">
-                                                        <rect key="frame" x="0.0" y="200" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgW-z0-RfU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.96078431372549022" green="1" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="ba3-e0-vPz"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
                                                             <color key="titleColor" red="0.6588235294" green="0.0" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -366,7 +371,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lWz-Yl-9z8">
-                                                <rect key="frame" x="0.0" y="945" width="375" height="230"/>
+                                                <rect key="frame" x="0.0" y="450" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZA-Ss-wy9">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -375,7 +380,7 @@
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="110" id="NRS-CN-Sth"/>
                                                             <constraint firstAttribute="width" constant="375" id="Pdg-4j-qkg"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="25"/>
                                                         <state key="normal" title="march for your lives">
                                                             <color key="titleColor" red="1" green="0.92549019607843142" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -383,14 +388,14 @@
                                                             <action selector="fifthHandleSection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xOG-3t-OmG"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cr6-tH-XnF">
-                                                        <rect key="frame" x="0.0" y="110" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cr6-tH-XnF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="XKJ-GW-YTT"/>
                                                             <constraint firstAttribute="width" constant="375" id="gPi-Yp-LJE"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get informed">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -399,8 +404,8 @@
                                                             <action selector="fourthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZc-tu-fNf"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsp-7q-eWT">
-                                                        <rect key="frame" x="0.0" y="140" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsp-7q-eWT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="JNn-ae-gRD"/>
@@ -414,14 +419,14 @@
                                                             <action selector="fifthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nev-dr-RT4"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGC-Ow-peG">
-                                                        <rect key="frame" x="0.0" y="170" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGC-Ow-peG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="GSg-kG-95j"/>
                                                             <constraint firstAttribute="width" constant="375" id="h4M-Gs-Qvv"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -429,14 +434,14 @@
                                                             <action selector="fifthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pGU-eB-TiF"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkO-MV-4S3">
-                                                        <rect key="frame" x="0.0" y="200" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkO-MV-4S3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="57n-hF-0Sw"/>
                                                             <constraint firstAttribute="height" constant="30" id="qRo-eF-xQO"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -447,7 +452,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Jhl-jP-TQf">
-                                                <rect key="frame" x="0.0" y="1175" width="375" height="230"/>
+                                                <rect key="frame" x="0.0" y="560" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJ7-Ea-rgr">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -456,7 +461,7 @@
                                                             <constraint firstAttribute="width" constant="375" id="9tl-Gm-rl0"/>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="110" id="oc4-bF-Z5c"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="25"/>
                                                         <state key="normal" title="immigration">
                                                             <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -464,14 +469,14 @@
                                                             <action selector="sixthHandleSection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mw7-Cx-Py8"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2A9-YZ-hFS">
-                                                        <rect key="frame" x="0.0" y="110" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2A9-YZ-hFS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="GUq-Lg-sqG"/>
                                                             <constraint firstAttribute="height" constant="30" id="ea4-LA-DVO"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get informed">
                                                             <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -479,14 +484,14 @@
                                                             <action selector="sixthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RVE-Km-S9o"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VL6-YW-vX7">
-                                                        <rect key="frame" x="0.0" y="140" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VL6-YW-vX7">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="WSQ-F5-NRY"/>
                                                             <constraint firstAttribute="height" constant="30" id="heI-rD-56m"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="get involved">
                                                             <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -494,14 +499,14 @@
                                                             <action selector="sixthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVG-i9-No1"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qo5-ct-qLz">
-                                                        <rect key="frame" x="0.0" y="170" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qo5-ct-qLz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="5uv-av-uXa"/>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="ZUH-4E-yGL"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
                                                             <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -509,14 +514,14 @@
                                                             <action selector="sixthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p7d-1u-f1X"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ze-uE-Hhc">
-                                                        <rect key="frame" x="0.0" y="200" width="375" height="30"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ze-uE-Hhc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="coc-pz-D3y"/>
                                                             <constraint firstAttribute="width" constant="375" id="zm4-Wk-bZV"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
                                                             <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -526,6 +531,20 @@
                                                     </button>
                                                 </subviews>
                                             </stackView>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eQ-Dc-ONt">
+                                                <rect key="frame" x="0.0" y="670" width="375" height="44"/>
+                                                <color key="backgroundColor" red="0.96078431369999995" green="1" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <items>
+                                                    <barButtonItem systemItem="stop" id="CZe-no-ODt">
+                                                        <color key="tintColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <connections>
+                                                            <segue destination="xza-kk-zSh" kind="show" id="Rqo-9u-Nm8"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                                <color key="tintColor" red="0.65932089090000001" green="0.13114711640000001" blue="0.66305899619999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="barTintColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </toolbar>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -533,6 +552,7 @@
                                             <constraint firstItem="lWz-Yl-9z8" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="4VO-w4-htU"/>
                                             <constraint firstAttribute="trailing" secondItem="raU-Yg-kVz" secondAttribute="trailing" id="5tD-JN-4Y3"/>
                                             <constraint firstItem="lWz-Yl-9z8" firstAttribute="top" secondItem="raU-Yg-kVz" secondAttribute="bottom" id="Bus-5x-9qA"/>
+                                            <constraint firstItem="8eQ-Dc-ONt" firstAttribute="top" secondItem="Jhl-jP-TQf" secondAttribute="bottom" id="HBI-yB-vIz"/>
                                             <constraint firstItem="URU-OR-sNr" firstAttribute="top" secondItem="dKZ-Ex-9XV" secondAttribute="bottom" id="L3W-bD-9OC"/>
                                             <constraint firstItem="raU-Yg-kVz" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="MZ2-BJ-FH4"/>
                                             <constraint firstItem="ppO-9E-GaL" firstAttribute="top" secondItem="URU-OR-sNr" secondAttribute="bottom" id="Rk6-JG-f4j"/>
@@ -540,10 +560,12 @@
                                             <constraint firstAttribute="trailing" secondItem="Jhl-jP-TQf" secondAttribute="trailing" id="Wq3-kl-YxG"/>
                                             <constraint firstItem="Jhl-jP-TQf" firstAttribute="top" secondItem="lWz-Yl-9z8" secondAttribute="bottom" id="Wur-Wj-iLW"/>
                                             <constraint firstItem="Jhl-jP-TQf" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="dLg-gV-8eU"/>
+                                            <constraint firstAttribute="height" constant="1500" id="dl4-Tm-LAA"/>
+                                            <constraint firstItem="8eQ-Dc-ONt" firstAttribute="trailing" secondItem="Jhl-jP-TQf" secondAttribute="trailing" id="iRt-UO-TtN"/>
                                             <constraint firstItem="ppO-9E-GaL" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="q2w-Ig-A5D"/>
-                                            <constraint firstAttribute="height" constant="1000" id="sNn-vD-XIa"/>
                                             <constraint firstItem="URU-OR-sNr" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="vrl-CH-Eph"/>
                                             <constraint firstAttribute="trailing" secondItem="ppO-9E-GaL" secondAttribute="trailing" id="x3g-7C-XoY"/>
+                                            <constraint firstItem="8eQ-Dc-ONt" firstAttribute="leading" secondItem="Jhl-jP-TQf" secondAttribute="leading" id="xml-4T-wsH"/>
                                             <constraint firstItem="dKZ-Ex-9XV" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="xpI-ga-K6m"/>
                                             <constraint firstAttribute="trailing" secondItem="lWz-Yl-9z8" secondAttribute="trailing" id="ye5-hg-eEd"/>
                                             <constraint firstItem="raU-Yg-kVz" firstAttribute="top" secondItem="ppO-9E-GaL" secondAttribute="bottom" id="zSh-0s-j0v"/>
@@ -600,7 +622,146 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1101.5999999999999" y="208.69565217391306"/>
+            <point key="canvasLocation" x="1030" y="454"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MdB-YV-j9V">
+            <objects>
+                <viewController id="fye-XK-SzB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Efw-nj-gcm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="umx-IT-Yg2">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.96241241693496704" green="1" blue="0.78795897960662842" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.65932089090000001" green="0.13114711640000001" blue="0.66305899619999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <textAttributes key="largeTitleTextAttributes">
+                                    <color key="textColor" red="0.6593208909034729" green="0.1311471164226532" blue="0.66305899620056152" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="GET INFORMED" id="yIH-ZA-FIj">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="8dH-Cv-A1a">
+                                            <color key="tintColor" red="0.65932089090000001" green="0.13114711640000001" blue="0.66305899619999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="ytB-8j-4jS"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="L6v-2O-lVh">
+                                            <color key="tintColor" red="0.65932089090000001" green="0.13114711640000001" blue="0.66305899619999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="hJE-OE-uh3" kind="show" id="Lbj-bJ-uih"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="venezuela1" translatesAutoresizingMaskIntoConstraints="NO" id="Yhp-lV-mpR">
+                                <rect key="frame" x="42" y="78" width="291" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eFA-FJ-88Q">
+                                <rect key="frame" x="31" y="306" width="313" height="4799.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96241241690000001" green="1" blue="0.78795897960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <mutableString key="text">The country of Venezuela is facing a crisis not seen before in South America. A crisis that is not simple, but complex in its structure. Aside from corruption in almost every aspect of its government (from ballot stuffing to assigning a committee to rewrite the country’s constitution), Venezuela is facing an economic and humanitarian crisis that has resulted in violence and extreme inflation. With the issues of extreme inflation, necessities such as food, toiletries, and medicine have become very scarce. As their fundamental rights are being put into question and basic necessities are not available, many are immigrating to neighboring countries, some even taking the long journey to the United States southern border.
+
+Government Curroption
+PSUV, a socialist party as been in power of Venezuela since 1999. President Maduro, who followed in the footsteps of his predecessor and mentor, Hugo Chavez, both have been to blame for the current economic crisis and later the humanitarian crisis. Former President Chavez had implemented socialist policies to help the poor economic class, but later damaged the economy. In 2013, Maduro assumed the presidency when his mentor, Chavez, died, winning by a 1.6% margin. Once he was in office, the economy began to plummet and the people of Venezuela began to blame him and the socialist party. In 2018, Maduro was re-elected in corrupted election that is not recognized by opposing parties and other countries, including the U.S. As the Maduro claimed he won the re-election, the people of venezuela said otherwise. 
+
+Maduro began to abuse his powers and within weeks of second term, he appointed a council of people to rewrite the country’s constitution. At this point, the civilians are seeing their “president” (who is supposed to serve on the side of democracy) abuse his powers and starts to lean towards what could turn towards a tyranny. Only 13 days after Maduro was inaugurated into his second term, Juan Guadió announced himself as president due the article 233 and 333 (state that the Head of the National Assembly is to ascend to the presidency if the president dies or is seen as unfit).  Guadió has been recognized by the people of Venezuela, many international powers, and now the country’s military as the president of Venezuela, where as Maduro still has the support of Russia and China. 
+
+Economic Crisis
+In 2003, Chavez made restraints on foreign currency which resulted in a black market made of exchanging currency. In 2019, the inflation rate is expected to reach 10 million percent, which would make Venezuela one of the worst cases of hyperinflation in modern day history. Today, one United States dollar is equivalent to 637 Venezulian Bolívars, and it only takes nineteen days for the prices to double (according to 2019 research). 
+
+A family is scavenging for food scraps from garbage bags in Caracas, an uncommon sight before the economic crisis. - Meridith Kohut for The New York Times
+
+As hyperinflation continues, prices of necessities such as food and toiletries double within an average of 19 days which makes it difficult for civilians of all economic classes to buy such things. Due to hyperinflation of priceses changing so quickly, people have bought out grocery stores when the prices are affordable and whipping out their shelves bare. As those with enough money to buy food and toiletry necessities and over stocking due to inflated prices, those who fall in lower economic classes are left with very little food. Most end up with malnutrition as do many children in Venezuela. 
+
+
+Humanitarian Crisis
+As countries around the world were informed of the crisis and corruption in Venezuela, countries began to block Venezuela when it came to their exports, a boycott in hopes of having Maduro resign from power all for the well being of his people. Venezuela, now being “boycotted” by other countries, no longer has the necessary resources from agriculture to medicine.
+
+Lack of food and resources has resulted in a massive humanitarian crisis. The shortage of food has caused malnutrition amongst citizens of all ages, resulted which has resulted in riots and protests against the government and their president. Riots and violence in the streets have been a common sight, revolting against the current administration and its policies. 
+
+Protestors wave the Venezuelan Flag after seizing control of the main highway through Caracas - Meridith Kohut for The New York Times
+
+Scarce resources have contributed to the lack of food and lack of medical resources. An example of scarce medical resources is the lack of baby formula because new mothers are malnourished due to the hyperinflation of food prices and are not in the position to breastfeed their babies. With the lack of baby formula, babies are also becoming malnourished and some even die. 
+
+A 17 month old baby had starved to death and his family placed a tiny cardboard wings on top of his coffin in order for his soul to reach heaven which is tradition when a baby dies in Venezuela.  - Meridith Kohut for The New York Times
+
+
+As the situation worsens by the day in Venezuela, families are looking for a way out. On average, about five thousands immigrate to Colombia, Brazil, or decide to make the long journey to the United States southern border in hopes of seeking asylum and begin the process of bettering their lives. Venezuelans leave and come to the southern border with few belongings and their identification in hopes of achieving a new and prosperous life. 
+</mutableString>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96241241693496704" green="1" blue="0.78795897960662842" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="ES2-ev-3K6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Axu-si-LcP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2039.2" y="680.5097451274363"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eX3-bc-h3X">
+            <objects>
+                <viewController id="hJE-OE-uh3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gOR-c1-gp1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yfv-C3-L9c">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.96241241690000001" green="1" blue="0.78795897960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.65932089090000001" green="0.13114711640000001" blue="0.66305899619999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="GET INVOLVED" id="Btt-kr-mgU">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="qBZ-wT-Ca2">
+                                            <color key="tintColor" red="0.65932089090000001" green="0.13114711640000001" blue="0.66305899619999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="9WL-J6-pMe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="venezuela2" translatesAutoresizingMaskIntoConstraints="NO" id="cdt-j3-fDm">
+                                <rect key="frame" x="42" y="85" width="291" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nqX-Vb-dzQ">
+                                <rect key="frame" x="31" y="306" width="313" height="361"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96241241690000001" green="1" blue="0.78795897960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Donate to Cuatro Por Venezuela who provides all types of resources and food  for everyone. 
+https://www.cuatroporvenezuela.org
+
+Donate to Project HOPE which helps in providing medical resources for hospitals.
+https://www.projecthope.org/venezuelan-crisis-what-you-need-to-know/09/2018/
+
+Donate to Save the Children who help provide education and medical resources and food for children. 
+https://www.savethechildren.org/us/what-we-do/where-we-work/latin-america/venezuela
+</string>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96241241693496704" green="1" blue="0.78795897960662842" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="v50-sD-St1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eyx-Y9-Mbn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2716" y="673.31334332833592"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Utf-lb-e2L">
@@ -812,13 +973,206 @@
                     <view key="view" contentMode="scaleToFill" id="lii-Sr-cTY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aq3-dH-2FF">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.85956698656082153" green="0.99600309133529663" blue="0.99608141183853149" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.21367952227592468" green="0.3486289381980896" blue="0.08553459495306015" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="GET INFORMED" id="mTi-wb-ge3">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="fqa-Xu-gSo">
+                                            <color key="tintColor" red="0.22942695021629333" green="0.36439746618270874" blue="0.10127181559801102" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="Puo-ya-4nT"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="5Mc-Uh-ZDJ">
+                                            <color key="tintColor" red="0.22942695021629333" green="0.36439746618270874" blue="0.10127181559801102" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="H8E-9P-pXx" kind="show" id="2S9-Du-B8R"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3881" translatesAutoresizingMaskIntoConstraints="NO" id="HS1-Pw-hjc">
+                                <rect key="frame" x="31" y="75" width="313" height="241"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="83e-hw-fkj">
+                                <rect key="frame" x="31" y="340" width="313" height="327"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85956698659999997" green="0.99600309129999998" blue="0.99608141179999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <mutableString key="text">Every day more and more trash and pollution are added to our planet, these have detrimental impacts to ecosystems and environments across the globe. With recent scientific discoveries we only have a limited amount of time left on our planet, so we need to start taking care of it. The environmental movement’s goals range from cleaning up local parks to petitioning for major corporations to implement more green policies. Regardless of the mission, everyone should be passionate about keeping the earth clean because after all there’s no plan{et} B.
+
+By 2030, our planet will reach a point where reversing the effects of global warming and the unsustainable practices practices that humans have adopted and practiced in the past. If we do not start changing our ways on a global level, natural disasters due to the rising temperature will be widespread and uncontrollable. 
+
+While changing your everyday practices to be more sustainable may seem daunting, there are many ways to incorporate sustainability into your life! From declining plastic bags at grocery stores and opting for produce and grocery items that are plastic-free to taking reusable straws, utensils, and tupperware to restaurants to avoid creating any unnecessary waste. 
+
+Now, many restaurants, companies, and organizations are much more aware of the waste that they create, and recycling, reusing, and avoiding unnecessary plastic is a common occurrence
+</mutableString>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85956698656082153" green="0.99600309133529663" blue="0.99608141183853149" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="QD9-zJ-lFh"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZSa-77-AGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2026" y="-882"/>
+            <point key="canvasLocation" x="2024.8" y="-882.00899550224892"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gfp-bI-8n1">
+            <objects>
+                <viewController id="RKT-dg-veg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dke-uG-zGN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aru-4L-Rna">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.95765310530000003" green="0.74191707370000004" blue="0.87071418759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.38974052669999998" green="0.36913210149999998" blue="0.94942504169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <textAttributes key="largeTitleTextAttributes">
+                                    <color key="textColor" red="0.38974052667617798" green="0.36913210153579712" blue="0.94942504167556763" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="GET INFORMED" id="fs9-Cq-b7v">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="wGh-fJ-2RQ">
+                                            <color key="tintColor" red="0.38974052669999998" green="0.36913210149999998" blue="0.94942504169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="LuR-Mi-hep"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="peO-rY-Vdc">
+                                            <color key="tintColor" red="0.38974052669999998" green="0.36913210149999998" blue="0.94942504169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="0oU-ct-DW5" kind="show" id="Ac9-Ch-KK6"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lgbtq1" translatesAutoresizingMaskIntoConstraints="NO" id="xDQ-lp-URy">
+                                <rect key="frame" x="42" y="76" width="291" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pdq-cP-OAd">
+                                <rect key="frame" x="31" y="306" width="313" height="361"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95765310530000003" green="0.74191707370000004" blue="0.87071418759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <mutableString key="text">Contrary to many conservative beliefs, identifying as a part of the LGBT+ community is not some new millennial trend. Being attracted to people of the same gender or of multiple different genders has been a part of societies for hundreds of years. People are just now becoming more comfortable with their sexuality, gender identity, and self expression. Since the stonewall riots 50 years ago, the LGBT+community has been fighting for equality, recognition, and acceptance. Although we’ve come a long way since the 1960’s people are still dying in countries across the globe for trying to be themselves which is why we fight for the rights and equality. Although the Marriage Equality was passed in 2015, it is still legal in 31 states to discriminate against those who identify as part of the LGBTQ+. Pride month may only happen once a year, but for 365 days, people should be proud to be themselves.
+
+History
+In the 1960s,  police would perform raids often on gay/queer bars with no warrent and no probable cause. Drag Queens and gay men would be arrested on the homosexual tendencies and women would be arrested if they were not wearing at least three basic and most common female clothing. The Stonewall Inn was a famous bar, owned by the mafia, where those who were not cisgender and straight could go to freely be themselves and becoming part of a loving and supportive community. Although the conditions of Stonewall were not great (there was no running water), civilians would go to freely express themselves without the fear of being arrested. 
+
+On June 28th, 1969, The NYPD did a routine raid on the Stonewall Inn, however, this time was different. As the police raided, drag queen, transgender women (like Sylvie Rivera and Marsha P. Johnson) and men, and gay men and women fought back, causing a riot to break out. The riot had lasted for 6 days before things had officially died down. The Stonewall Riots became a symbol of Gay Liberation across the globe and later was recognized as the movement that had initialized the LGBTQ+ movement worldwide. 
+
+A year later, on the one year anniversary of the Stonewall Riots, The Gay Liberation Front made the first Gay Pride Parade as a protest to show, We’re here, we’re queer, and we’re here to stay. At this point however, the movement was not inclusive of Trans rights, so transactivits like Sylvia Rivera and Marsha P. Johnson were turned away, who truly were there at the Stonewall riots and participated and supported Gay LIberation. It wasn’t till the late 1970s when trans rights we included in the movement towards Gay Liberation. 
+
+Marsha P. Johnson (on the left) and Sylvia Rivera (on the right) march for Transgender Rights in Manhantan 
+
+As the Years go by, more sexual identities join the loving and supporting community to move towards equality and discrimination on the basis of gender identity or sexual orientation. 
+</mutableString>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="fmz-hH-TR4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0aN-RH-kVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="-121.88905547226388"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Mu-y3-4l4">
+            <objects>
+                <viewController id="0oU-ct-DW5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fme-Qa-pj4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CaZ-jb-OPK">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.95765310530000003" green="0.74191707370000004" blue="0.87071418759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.38974052669999998" green="0.36913210149999998" blue="0.94942504169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <textAttributes key="largeTitleTextAttributes">
+                                    <color key="textColor" red="0.38974052669999998" green="0.36913210149999998" blue="0.94942504169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="GET INVOLVED" id="zeA-i0-hPL">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="fcP-gc-6Jh">
+                                            <color key="tintColor" red="0.38974052669999998" green="0.36913210149999998" blue="0.94942504169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="ARf-Qm-d7n"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lgbtq2" translatesAutoresizingMaskIntoConstraints="NO" id="ae2-Jv-Wtv">
+                                <rect key="frame" x="42" y="78" width="291" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JPv-5e-FWp">
+                                <rect key="frame" x="31" y="306" width="313" height="361"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95765310530000003" green="0.74191707370000004" blue="0.87071418759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <mutableString key="text">With the 2020 presidential campaign coming up as well as local and state elections, is a great way to help out the LGBTQ+ community is to support candidates who support the community such as Beto O’Rourke and Pete Buittigeig (just two examples of the list of candidates that are supporters of LGBTQ+ Equality) and by donating to their campaign or writing letters to them can be a way of exercising your democratic rights and support the community. 
+
+Aside from exercising your democratic rights to show your support, it is important to educate yourself over LGBTQ+ history and policies that discriminate against them. Once you have educated yourself over the history and wrongful policies, inform and educate others in hopes of opening their minds to become aware of the discrimation on the basis of sexuality or gender identity. Pride marches and parades are also a fun way to show support and get involved with your local LGBTQ+ community. We’ll have some events and petitions  listed below.
+
+Other than attending events, you could educate yourself over LGBTQ+ policies and history, and support LGBTQ+ organizations and foundations that do raise money to help LGBTQ+ youth and issues. 
+
+DONATE
+The GBLT National Help Center - Their Gay &amp; Lesbian National Hotline, which began in 1996, is a primary program of the GLBT National Help Center. They have 15,000 local resources for cities and towns across the country.
+https://donatenow.networkforgood.org/1210845/
+
+Human Rights Compaign - The Human Rights Campaign, the largest national gay, lesbian, bisexual and transgender advocacy organization, envisions an America where GLBT people are ensured of their basic equal rights, and can be open, honest and safe at home, at work and in the community.
+https://hrc.org/
+
+Gay &amp; Lesbian Advocates &amp; Defenders - GLAD works nationally to create a just society free of discrimination based on sexual orientation, HIV status, and gender identity and expression.
+https://www.glad.org/
+
+Transgender Law Center - works to change law, policy, and attitudes so that all people can live safely, authentically, and free from discrimination regardless of their gender identity or expression. 
+https://transgenderlawcenter.org/
+
+Gay, Lesbian, &amp; Straight Educators Network - GLSEN is the largest national organization of parents, educators, students and other concerned citizens working to end homophobia in K-12 schools, and to ensure all students are valued and respected, regardless of sexual orientation.
+https://www.glsen.org/
+
+Gay &amp; Lesbian Medical Association - GLMA works to ensure equality in healthcare for lesbian, gay, bisexual and transgender individuals and healthcare professionals. GLMA achieves its goals by using medical expertise in professional education, public policy work, patient education and referrals and the promotion of research.
+http://www.glma.org/
+
+Trevor Project - is a social foundation that is set on decreasing the drastic numbers of LGBTQ+ teen suicide.
+https://www.thetrevorproject.org/
+
+Pride Foundation - fuels transformational movements to advance equity and justice for LGBTQ+ people in all communities across the Northwest.
+https://pridefoundation.org/about-us/mission-vision/
+</mutableString>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="6RX-R6-RQV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kJ0-dm-zur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2716" y="-121.88905547226388"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="G6f-CL-axL">
@@ -827,43 +1181,52 @@
                     <view key="view" contentMode="scaleToFill" id="Axf-LI-Rgt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U98-1j-y6K">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.84783905744552612" green="0.98414582014083862" blue="0.98824268579483032" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.2097550630569458" green="0.34466484189033508" blue="0.085553593933582306" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="GET INVOLVED" id="6Ef-wq-KHh">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="9DS-Ww-yA9">
+                                            <color key="tintColor" red="0.22942695020000001" green="0.36439746620000002" blue="0.1012718156" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="ACH-5n-icc"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="REACTclimate2" translatesAutoresizingMaskIntoConstraints="NO" id="BEP-QF-X8P">
+                                <rect key="frame" x="42" y="90" width="291" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pEI-QE-LYU">
+                                <rect key="frame" x="31" y="307" width="313" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85956698659999997" green="0.99600309129999998" blue="0.99608141179999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Here are some ideas to encourage sustainable practices in your community and in your life: 
+Host trash cleanups in your area! 
+Reduce plastic consumption
+Host informational presentations in your town about how to replace single-use plastics with more eco-friendly options
+Donate to:
+National Park Foundation
+Sierra Club
+</string>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85956698659999997" green="0.99600309129999998" blue="0.99608141179999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="hUZ-Hr-0mj"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Zb-IB-A9H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2694" y="-885"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ZZ7-d2-fII">
-            <objects>
-                <viewController id="Auc-DK-qdt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="36R-TX-hTa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Alu-W1-EfX"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sTV-bn-ZcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3362" y="-882"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="6h2-9K-YMC">
-            <objects>
-                <viewController id="3Es-hR-AjE" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QJX-NJ-Xgc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="mjK-ov-T2M"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f0P-0B-Lau" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4023" y="-893"/>
+            <point key="canvasLocation" x="2693.5999999999999" y="-885.60719640179911"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ccm-tv-wdm">
@@ -887,13 +1250,13 @@
                                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="1nz-uV-7OM">
                                             <color key="tintColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="MKT-tu-rpG"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="nGY-dp-Vih"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="alu-4a-1sQ">
                                             <color key="tintColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <segue destination="hdH-xa-Nev" kind="show" id="CRW-nx-jzU"/>
+                                                <segue destination="hdH-xa-Nev" kind="show" id="3gX-7m-eE4"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -951,13 +1314,13 @@
                                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="rAc-in-L15">
                                             <color key="tintColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="0X4-Pl-mBt"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="zGg-Mu-sD4"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="GBJ-Bx-ZWZ">
                                             <color key="tintColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <segue destination="93W-LT-QX8" kind="show" id="YFt-o7-2ty"/>
+                                                <segue destination="93W-LT-QX8" kind="show" id="Uxh-kQ-3gI"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1013,13 +1376,13 @@ Malala Fund
                                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="hMt-xe-fW7">
                                             <color key="tintColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="ebd-ue-kmT"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="RsH-ap-WjA"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="kz2-Tr-ArX">
                                             <color key="tintColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <segue destination="gfx-6n-9fv" kind="show" id="cNE-sZ-VgS"/>
+                                                <segue destination="gfx-6n-9fv" kind="show" id="e8q-kh-A7N"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1094,7 +1457,7 @@ Malala Fund
                                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="dCV-PW-9W1">
                                             <color key="tintColor" red="0.94901960780000005" green="0.40784313729999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="CkS-Bc-dZI"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="udc-At-lMn"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1139,10 +1502,39 @@ Phenomenal Woman Action Campaign
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="gBO-cx-ct1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="gBO-cx-ct1">
                                 <rect key="frame" x="-55" y="-8" width="480" height="675"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2Q-gY-dQm">
+                                <rect key="frame" x="174" y="563" width="201" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="69P-kW-IJA"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="aboutus"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnp-Ck-uoq">
+                                <rect key="frame" x="175" y="756" width="200" height="179"/>
+                                <state key="normal" title="Button" image="theissues"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfH-YL-Uju">
+                                <rect key="frame" x="145" y="527" width="205" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="28"/>
+                                <state key="normal" title="login / sign up">
+                                    <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="01s-fU-cUL" kind="show" id="Ei8-io-IzG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYB-cC-TRe">
+                                <rect key="frame" x="174" y="452" width="201" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="theissues"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="gxc-em-FAB"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbS-N1-MTH">
                                 <rect key="frame" x="0.0" y="0.0" width="238" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1151,32 +1543,20 @@ Phenomenal Woman Action Campaign
                                     <segue destination="TqI-y3-YVn" kind="show" id="b0Q-va-nie"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2Q-gY-dQm">
-                                <rect key="frame" x="174" y="563" width="201" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="aboutus"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnp-Ck-uoq">
-                                <rect key="frame" x="175" y="443" width="200" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="theissues"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="V2s-j7-Dj3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfH-YL-Uju">
-                                <rect key="frame" x="148" y="527" width="198" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="27"/>
-                                <state key="normal" title="login / sign up">
-                                    <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="01s-fU-cUL" kind="show" id="Ei8-io-IzG"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gBO-cx-ct1" firstAttribute="bottom" secondItem="PFt-BL-0kB" secondAttribute="bottom" id="5xy-WO-tsy"/>
+                            <constraint firstItem="U2Q-gY-dQm" firstAttribute="bottom" secondItem="PFt-BL-0kB" secondAttribute="bottom" id="7T2-c8-SoT"/>
+                            <constraint firstItem="gBO-cx-ct1" firstAttribute="leading" secondItem="YPn-c8-tf4" secondAttribute="leading" constant="-55" id="AbV-VC-Fmj"/>
+                            <constraint firstItem="Hnp-Ck-uoq" firstAttribute="top" secondItem="gBO-cx-ct1" secondAttribute="bottom" constant="89" id="Im4-8n-igd"/>
+                            <constraint firstItem="Hnp-Ck-uoq" firstAttribute="centerX" secondItem="U2Q-gY-dQm" secondAttribute="centerX" id="LVv-Tl-f2e"/>
+                            <constraint firstItem="Hnp-Ck-uoq" firstAttribute="trailing" secondItem="U2Q-gY-dQm" secondAttribute="trailing" id="k16-Aa-0Y4"/>
+                            <constraint firstItem="Hnp-Ck-uoq" firstAttribute="leading" secondItem="PFt-BL-0kB" secondAttribute="leading" constant="175" id="qmg-g3-Nzo"/>
+                            <constraint firstItem="Hnp-Ck-uoq" firstAttribute="trailing" secondItem="PFt-BL-0kB" secondAttribute="trailing" id="vw5-mz-fcd"/>
+                            <constraint firstAttribute="trailing" secondItem="gBO-cx-ct1" secondAttribute="trailing" constant="-50" id="xs9-tb-Xid"/>
+                            <constraint firstItem="gBO-cx-ct1" firstAttribute="top" secondItem="YPn-c8-tf4" secondAttribute="top" constant="-8" id="ygj-MU-zOt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PFt-BL-0kB"/>
                     </view>
                 </viewController>
@@ -1204,20 +1584,29 @@ Phenomenal Woman Action Campaign
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_3881" width="636" height="648"/>
+        <image name="REACTclimate2" width="950" height="534"/>
         <image name="REACTwomensrights2" width="780" height="520"/>
         <image name="REACTwomensrights3" width="1160" height="768"/>
         <image name="aboutus" width="424" height="225"/>
         <image name="appIcon" width="120" height="120"/>
         <image name="homeBackground" width="750" height="1334"/>
         <image name="homeButton" width="539" height="539"/>
+        <image name="lgbtq1" width="279" height="180"/>
+        <image name="lgbtq2" width="1024" height="691"/>
         <image name="theissues" width="419" height="179"/>
+        <image name="venezuela1" width="275" height="183"/>
+        <image name="venezuela2" width="300" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ILI-bc-Jts"/>
-        <segue reference="e28-im-Bp1"/>
+        <segue reference="Rqo-9u-Nm8"/>
+        <segue reference="e8q-kh-A7N"/>
         <segue reference="oef-hE-i92"/>
         <segue reference="acF-gF-clE"/>
-        <segue reference="Fsg-3b-LLs"/>
-        <segue reference="CkS-Bc-dZI"/>
+        <segue reference="irc-Jx-wKi"/>
+        <segue reference="ZUm-MO-cS2"/>
+        <segue reference="Ei8-io-IzG"/>
+        <segue reference="dlx-g0-HSC"/>
+        <segue reference="udc-At-lMn"/>
     </inferredMetricsTieBreakers>
 </document>
