@@ -11,10 +11,13 @@ import UIKit
 class ViewController: UIViewController, UINavigationControllerDelegate {
     
     @IBOutlet var firstDropDown: [UIButton]!
+<<<<<<< HEAD
     @IBOutlet var secondDropDown: [UIButton]!
     @IBOutlet var thirdDropDown: [UIButton]!
     @IBOutlet var fourthDropDown: [UIButton]!
     
+=======
+>>>>>>> parent of 284f67a... ?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,9 +29,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
                 , animations: {
                     button.isHidden = !button.isHidden
                     self.view.layoutIfNeeded()
+
             })
         }
     }
+<<<<<<< HEAD
     @IBAction func secondHandleSelection(_ sender: UIButton) {
         secondDropDown.forEach { (button2) in
             UIView.animate(withDuration: 0.3
@@ -59,9 +64,17 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     
     
     
+=======
+    
+//    enum Reacts: String {
+//        case .get
+//    }
+
+>>>>>>> parent of 284f67a... ?
     @IBAction func firstDropTapped(_ sender: UIButton) {
-    }
-    @IBAction func secondDropTapped(_ sender: UIButton) {
+//        guard let title = sender.currentTitle else {
+//            return
+//        }
     }
     @IBAction func thirdDropTapped(_ sender: UIButton) {
     }
