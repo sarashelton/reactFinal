@@ -14,6 +14,8 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     @IBOutlet var secondDropDown: [UIButton]!
     @IBOutlet var thirdDropDown: [UIButton]!
     @IBOutlet var fourthDropDown: [UIButton]!
+    @IBOutlet var fifthDropDown: [UIButton]!
+    @IBOutlet var sixthDropDown: [UIButton]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,8 +58,25 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
             })
         }
     }
+    @IBAction func fifthHandleSection(_ sender: UIButton) {
+        fifthDropDown.forEach { (button5) in
+            UIView.animate(withDuration: 0.3
+                , animations: {
+                    button5.isHidden = !button5.isHidden
+                    self.view.layoutIfNeeded()
+            })
+        }
+    }
     
-    
+    @IBAction func sixthHandleSection(_ sender: UIButton) {
+        sixthDropDown.forEach { (button6) in
+            UIView.animate(withDuration: 0.3
+                , animations: {
+                    button6.isHidden = !button6.isHidden
+                    self.view.layoutIfNeeded()
+            })
+        }
+    }
     
     @IBAction func firstDropTapped(_ sender: UIButton) {
     }
@@ -65,8 +84,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     }
     @IBAction func thirdDropTapped(_ sender: UIButton) {
     }
-    
     @IBAction func fourthDropTapped(_ sender: UIButton) {
+    }
+    @IBAction func fifthDropTapped(_ sender: UIButton) {
+    }
+    @IBAction func sixthDropTapped(_ sender: UIButton) {
     }
 }
 

@@ -8,11 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		797D26F922C40F5A00214E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D26F722C40F5A00214E1C /* Main.storyboard */; };
-<<<<<<< HEAD
-		79C9FEE722C5655B0003F438 /* Frank_Ruhl_Libre in Resources */ = {isa = PBXBuildFile; fileRef = 79C9FEE622C5655B0003F438 /* Frank_Ruhl_Libre */; };
-=======
 		C681373222C56A460085DE08 /* Frank_Ruhl_Libre in Resources */ = {isa = PBXBuildFile; fileRef = C681373122C56A450085DE08 /* Frank_Ruhl_Libre */; };
->>>>>>> d4ef55db1cf4fb50236f0035b17dd0168fd7e03b
 		C69021E622C3E71900FF21FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E522C3E71900FF21FF /* AppDelegate.swift */; };
 		C69021E822C3E71900FF21FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E722C3E71900FF21FF /* ViewController.swift */; };
 		C69021EE22C3E71A00FF21FF /* react.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C69021EC22C3E71A00FF21FF /* react.xcdatamodeld */; };
@@ -41,11 +37,7 @@
 
 /* Begin PBXFileReference section */
 		797D26F822C40F5A00214E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		79C9FEE622C5655B0003F438 /* Frank_Ruhl_Libre */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frank_Ruhl_Libre; path = ../../../../Downloads/Frank_Ruhl_Libre; sourceTree = "<group>"; };
-=======
 		C681373122C56A450085DE08 /* Frank_Ruhl_Libre */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frank_Ruhl_Libre; path = ../../../Frank_Ruhl_Libre; sourceTree = "<group>"; };
->>>>>>> d4ef55db1cf4fb50236f0035b17dd0168fd7e03b
 		C69021E222C3E71900FF21FF /* react.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69021E522C3E71900FF21FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69021E722C3E71900FF21FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,11 +105,7 @@
 				C69021E722C3E71900FF21FF /* ViewController.swift */,
 				797D26F722C40F5A00214E1C /* Main.storyboard */,
 				C69021EF22C3E71F00FF21FF /* Assets.xcassets */,
-<<<<<<< HEAD
-				79C9FEE622C5655B0003F438 /* Frank_Ruhl_Libre */,
-=======
 				C681373122C56A450085DE08 /* Frank_Ruhl_Libre */,
->>>>>>> d4ef55db1cf4fb50236f0035b17dd0168fd7e03b
 				C69021F122C3E71F00FF21FF /* LaunchScreen.storyboard */,
 				C69021F422C3E71F00FF21FF /* Info.plist */,
 				C69021EC22C3E71A00FF21FF /* react.xcdatamodeld */,
@@ -248,11 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C69021F322C3E71F00FF21FF /* LaunchScreen.storyboard in Resources */,
-<<<<<<< HEAD
-				79C9FEE722C5655B0003F438 /* Frank_Ruhl_Libre in Resources */,
-=======
 				C681373222C56A460085DE08 /* Frank_Ruhl_Libre in Resources */,
->>>>>>> d4ef55db1cf4fb50236f0035b17dd0168fd7e03b
 				C69021F022C3E71F00FF21FF /* Assets.xcassets in Resources */,
 				797D26F922C40F5A00214E1C /* Main.storyboard in Resources */,
 			);

@@ -33,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tp-Sd-Vrx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cp3-hb-mkF">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
@@ -43,9 +43,13 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIf-8y-cJK">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                                        <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="oM3-T3-d5w"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
                                                         <state key="normal" title="Women's Rights">
-                                                            <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="firstHandleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAj-1l-Xja"/>
@@ -53,12 +57,14 @@
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzU-uc-N6b">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="T2W-9A-z7t"/>
+                                                            <constraint firstAttribute="width" constant="375" id="Am5-eL-6QJ"/>
+                                                            <constraint firstAttribute="height" constant="30" id="eb2-S5-IVa"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="get informed">
-                                                            <color key="titleColor" red="0.001519458705" green="0.0" blue="0.84771841839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="firstDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DlZ-cO-OXe"/>
@@ -66,13 +72,14 @@
                                                         </connections>
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YHa-Ck-MDr">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                                        <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="FTB-Qn-7W0"/>
+                                                            <constraint firstAttribute="width" constant="375" id="8kI-Io-oZI"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="get involved">
-                                                            <color key="titleColor" red="0.001519458705" green="0.0" blue="0.84771841839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="firstDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D4D-mN-T7S"/>
@@ -80,13 +87,14 @@
                                                         </connections>
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXq-Jk-Jzo">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                                        <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="EeJ-XO-wbb"/>
+                                                            <constraint firstAttribute="width" constant="375" id="irE-BP-AFZ"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
-                                                            <color key="titleColor" red="0.001519458705" green="0.0" blue="0.84771841839999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="firstDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wH-t3-qE7"/>
@@ -94,12 +102,12 @@
                                                         </connections>
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VBV-mi-J0K">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
                                                         <color key="backgroundColor" red="1" green="0.85490196078431369" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="KXD-FH-it2"/>
+                                                            <constraint firstAttribute="width" constant="375" id="etK-Qk-rpZ"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
                                                             <color key="titleColor" red="0.92875713110000002" green="0.40545481439999997" blue="0.35678446289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
@@ -112,13 +120,14 @@
                                                 <color key="backgroundColor" red="1" green="0.85490196078431369" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="URU-OR-sNr">
-                                                <rect key="frame" x="0.0" y="75" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="75" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lr3-DD-GEA">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="PFJ-M1-a62"/>
+                                                            <constraint firstAttribute="width" constant="375" id="Eyy-FG-20b"/>
+                                                            <constraint firstAttribute="height" constant="110" id="ySF-AI-c9f"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
                                                         <state key="normal" title="Environmental Issues">
@@ -132,7 +141,8 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="Azg-Cm-vRa"/>
+                                                            <constraint firstAttribute="height" constant="30" id="I88-Ua-vxw"/>
+                                                            <constraint firstAttribute="width" constant="375" id="XGg-1x-8G3"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="get informed">
@@ -146,7 +156,8 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="IhW-H6-Stw"/>
+                                                            <constraint firstAttribute="height" constant="30" id="CLw-qd-C65"/>
+                                                            <constraint firstAttribute="width" constant="375" id="Zt0-Si-ujl"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="get involved">
@@ -157,7 +168,8 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="Zx2-3n-K3d"/>
+                                                            <constraint firstAttribute="height" constant="30" id="rKF-s1-hno"/>
+                                                            <constraint firstAttribute="width" constant="375" id="yTJ-gY-MOX"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
@@ -168,7 +180,8 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                         <color key="backgroundColor" red="0.85882352939999995" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="jI2-KV-PZi"/>
+                                                            <constraint firstAttribute="width" constant="375" id="2om-E2-rFY"/>
+                                                            <constraint firstAttribute="height" constant="30" id="u4D-9q-Ciq"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
@@ -180,13 +193,14 @@
                                                 <color key="tintColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ppO-9E-GaL">
-                                                <rect key="frame" x="0.0" y="125" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="185" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1c-bA-qaK">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
                                                         <color key="backgroundColor" red="0.97254901960784312" green="0.74117647058823533" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="Lmh-Va-QP0"/>
+                                                            <constraint firstAttribute="height" constant="110" id="JN6-Me-cGz"/>
+                                                            <constraint firstAttribute="width" constant="375" id="zW0-i6-6WW"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
                                                         <state key="normal" title="lgbt+">
@@ -198,9 +212,10 @@
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TM-rD-DEf">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
-                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.70196078431372544" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="r9M-MB-Clf"/>
+                                                            <constraint firstAttribute="height" constant="30" id="QtR-8C-Z6D"/>
+                                                            <constraint firstAttribute="width" constant="375" id="mvN-nr-Vte"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="get informed">
@@ -212,9 +227,10 @@
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2h-70-3n5">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
-                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.70196078431372544" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="5tI-Hh-KTE"/>
+                                                            <constraint firstAttribute="height" constant="30" id="HUi-S5-fU8"/>
+                                                            <constraint firstAttribute="width" constant="375" id="hpZ-SW-dzU"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="get involved">
@@ -226,9 +242,10 @@
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRo-jJ-g51">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
-                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.70196078431372544" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="ogY-0F-z69"/>
+                                                            <constraint firstAttribute="height" constant="30" id="WHS-BX-XCB"/>
+                                                            <constraint firstAttribute="width" constant="375" id="nGR-h8-AYM"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="upcoming events">
@@ -240,9 +257,10 @@
                                                     </button>
                                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um0-Qx-OOZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
-                                                        <color key="backgroundColor" red="0.97254901960784312" green="0.74117647058823533" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" red="0.95765310525894165" green="0.74191707372665405" blue="0.87071418762207031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="nKo-c3-Fb4"/>
+                                                            <constraint firstAttribute="width" constant="375" id="lBY-tm-n19"/>
+                                                            <constraint firstAttribute="height" constant="30" id="yPR-U8-uE5"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
                                                         <state key="normal" title="wear your support">
@@ -255,13 +273,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="raU-Yg-kVz">
-                                                <rect key="frame" x="0.0" y="175" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="295" width="375" height="110"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xn9-Eb-d3W">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
                                                         <color key="backgroundColor" red="0.96078431372549022" green="1" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="8o4-da-A5r"/>
+                                                            <constraint firstAttribute="height" constant="110" id="FCh-1b-fVW"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
                                                         <state key="normal" title="international">
@@ -341,40 +359,208 @@
                                                     <constraint firstAttribute="trailing" secondItem="dxB-36-zg6" secondAttribute="trailing" id="zDl-fE-tYk"/>
                                                 </constraints>
                                             </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lWz-Yl-9z8">
+                                                <rect key="frame" x="0.0" y="405" width="375" height="110"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZA-Ss-wy9">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="110" id="NRS-CN-Sth"/>
+                                                            <constraint firstAttribute="width" constant="375" id="Pdg-4j-qkg"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <state key="normal" title="march for your lives">
+                                                            <color key="titleColor" red="1" green="0.92549019607843142" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="fifthHandleSection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xOG-3t-OmG"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cr6-tH-XnF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="XKJ-GW-YTT"/>
+                                                            <constraint firstAttribute="width" constant="375" id="gPi-Yp-LJE"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="get informed">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="fifthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wUw-Ar-2oD"/>
+                                                            <action selector="fourthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZc-tu-fNf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsp-7q-eWT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="375" id="JNn-ae-gRD"/>
+                                                            <constraint firstAttribute="height" constant="30" id="NZR-iL-1x6"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="get involved">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="fifthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nev-dr-RT4"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGC-Ow-peG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="GSg-kG-95j"/>
+                                                            <constraint firstAttribute="width" constant="375" id="h4M-Gs-Qvv"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="upcoming events">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="fifthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pGU-eB-TiF"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkO-MV-4S3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="375" id="57n-hF-0Sw"/>
+                                                            <constraint firstAttribute="height" constant="30" id="qRo-eF-xQO"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="wear your support">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="fifthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h1h-eP-dWb"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Jhl-jP-TQf">
+                                                <rect key="frame" x="0.0" y="515" width="375" height="110"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJ7-Ea-rgr">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                                                        <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="375" id="9tl-Gm-rl0"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="110" id="oc4-bF-Z5c"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <state key="normal" title="immigration">
+                                                            <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="sixthHandleSection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mw7-Cx-Py8"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2A9-YZ-hFS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="375" id="GUq-Lg-sqG"/>
+                                                            <constraint firstAttribute="height" constant="30" id="ea4-LA-DVO"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="get informed">
+                                                            <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="sixthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RVE-Km-S9o"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VL6-YW-vX7">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="WSQ-F5-NRY"/>
+                                                            <constraint firstAttribute="height" constant="30" id="heI-rD-56m"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="get involved">
+                                                            <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="sixthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVG-i9-No1"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qo5-ct-qLz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="5uv-av-uXa"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="ZUH-4E-yGL"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="upcoming events">
+                                                            <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="sixthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p7d-1u-f1X"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ze-uE-Hhc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.84705882352941175" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="coc-pz-D3y"/>
+                                                            <constraint firstAttribute="width" constant="375" id="zm4-Wk-bZV"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="wear your support">
+                                                            <color key="titleColor" red="0.65098039215686276" green="0.011764705882352941" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="sixthDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xUu-qf-LlW"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstItem="dKZ-Ex-9XV" firstAttribute="top" secondItem="cp3-hb-mkF" secondAttribute="top" constant="30" id="1KO-H1-Mqr"/>
                                             <constraint firstAttribute="trailing" secondItem="URU-OR-sNr" secondAttribute="trailing" id="33u-3x-kqE"/>
+                                            <constraint firstItem="lWz-Yl-9z8" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="4VO-w4-htU"/>
                                             <constraint firstAttribute="trailing" secondItem="raU-Yg-kVz" secondAttribute="trailing" id="5tD-JN-4Y3"/>
+                                            <constraint firstItem="lWz-Yl-9z8" firstAttribute="top" secondItem="raU-Yg-kVz" secondAttribute="bottom" id="Bus-5x-9qA"/>
                                             <constraint firstItem="URU-OR-sNr" firstAttribute="top" secondItem="dKZ-Ex-9XV" secondAttribute="bottom" id="L3W-bD-9OC"/>
                                             <constraint firstItem="raU-Yg-kVz" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="MZ2-BJ-FH4"/>
                                             <constraint firstItem="ppO-9E-GaL" firstAttribute="top" secondItem="URU-OR-sNr" secondAttribute="bottom" id="Rk6-JG-f4j"/>
+                                            <constraint firstItem="dKZ-Ex-9XV" firstAttribute="top" secondItem="cp3-hb-mkF" secondAttribute="top" constant="30" id="VDn-2F-1rV"/>
+                                            <constraint firstAttribute="trailing" secondItem="Jhl-jP-TQf" secondAttribute="trailing" id="Wq3-kl-YxG"/>
+                                            <constraint firstItem="Jhl-jP-TQf" firstAttribute="top" secondItem="lWz-Yl-9z8" secondAttribute="bottom" id="Wur-Wj-iLW"/>
                                             <constraint firstAttribute="trailing" secondItem="dKZ-Ex-9XV" secondAttribute="trailing" id="bk9-NA-idY"/>
+                                            <constraint firstItem="Jhl-jP-TQf" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="dLg-gV-8eU"/>
                                             <constraint firstItem="ppO-9E-GaL" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="q2w-Ig-A5D"/>
                                             <constraint firstAttribute="height" constant="1000" id="sNn-vD-XIa"/>
                                             <constraint firstItem="URU-OR-sNr" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="vrl-CH-Eph"/>
                                             <constraint firstAttribute="trailing" secondItem="ppO-9E-GaL" secondAttribute="trailing" id="x3g-7C-XoY"/>
                                             <constraint firstItem="dKZ-Ex-9XV" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="xpI-ga-K6m"/>
+                                            <constraint firstAttribute="trailing" secondItem="lWz-Yl-9z8" secondAttribute="trailing" id="ye5-hg-eEd"/>
                                             <constraint firstItem="raU-Yg-kVz" firstAttribute="top" secondItem="ppO-9E-GaL" secondAttribute="bottom" id="zSh-0s-j0v"/>
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" red="0.97466379404067993" green="0.85202246904373169" blue="0.80779045820236206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstItem="cp3-hb-mkF" firstAttribute="leading" secondItem="6tp-Sd-Vrx" secondAttribute="leading" id="Gdv-UG-CJt"/>
-                                    <constraint firstAttribute="bottom" secondItem="cp3-hb-mkF" secondAttribute="bottom" id="cFd-9F-ufW"/>
-                                    <constraint firstItem="cp3-hb-mkF" firstAttribute="top" secondItem="6tp-Sd-Vrx" secondAttribute="top" id="eUg-vM-6Gx"/>
-                                    <constraint firstAttribute="trailing" secondItem="cp3-hb-mkF" secondAttribute="trailing" id="h45-f1-DNs"/>
+                                    <constraint firstItem="cp3-hb-mkF" firstAttribute="top" secondItem="6tp-Sd-Vrx" secondAttribute="top" id="AVa-Do-18R"/>
+                                    <constraint firstAttribute="bottom" secondItem="cp3-hb-mkF" secondAttribute="bottom" constant="500" id="PTM-ZU-rsv"/>
+                                    <constraint firstItem="cp3-hb-mkF" firstAttribute="leading" secondItem="6tp-Sd-Vrx" secondAttribute="leading" id="Pc9-ia-wlL"/>
+                                    <constraint firstAttribute="trailing" secondItem="cp3-hb-mkF" secondAttribute="trailing" id="gPG-EU-fDY"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.92156862750000001" green="1" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.88902276754379272" green="0.74881035089492798" blue="0.76079529523849487" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="6tp-Sd-Vrx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5eo-D3-Y5o"/>
-                            <constraint firstItem="6tp-Sd-Vrx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OZo-hN-buq"/>
+                            <constraint firstAttribute="bottom" secondItem="6tp-Sd-Vrx" secondAttribute="bottom" constant="-500" id="2o2-h5-RfE"/>
+                            <constraint firstAttribute="trailing" secondItem="6tp-Sd-Vrx" secondAttribute="trailing" id="5nr-7y-iBY"/>
+                            <constraint firstItem="6tp-Sd-Vrx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dq2-RQ-ORj"/>
+                            <constraint firstItem="6tp-Sd-Vrx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GbI-hM-apJ"/>
                             <constraint firstItem="cp3-hb-mkF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ciq-DD-bui"/>
-                            <constraint firstAttribute="trailing" secondItem="6tp-Sd-Vrx" secondAttribute="trailing" id="i1d-1z-SiX"/>
-                            <constraint firstItem="6tp-Sd-Vrx" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="x3q-8e-Urp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -397,6 +583,14 @@
                         <outletCollection property="fourthDropDown" destination="4om-WQ-6dB" collectionClass="NSMutableArray" id="ciG-gL-9KW"/>
                         <outletCollection property="fourthDropDown" destination="dxB-36-zg6" collectionClass="NSMutableArray" id="6n6-OH-J3w"/>
                         <outletCollection property="fourthDropDown" destination="JgW-z0-RfU" collectionClass="NSMutableArray" id="uub-bf-peq"/>
+                        <outletCollection property="fifthDropDown" destination="Cr6-tH-XnF" collectionClass="NSMutableArray" id="ymy-tw-Sou"/>
+                        <outletCollection property="fifthDropDown" destination="Zsp-7q-eWT" collectionClass="NSMutableArray" id="VVS-HL-sNQ"/>
+                        <outletCollection property="fifthDropDown" destination="FGC-Ow-peG" collectionClass="NSMutableArray" id="QBx-Sn-IwQ"/>
+                        <outletCollection property="fifthDropDown" destination="DkO-MV-4S3" collectionClass="NSMutableArray" id="TNx-zt-8rS"/>
+                        <outletCollection property="sixthDropDown" destination="2A9-YZ-hFS" collectionClass="NSMutableArray" id="yQX-Rh-YNv"/>
+                        <outletCollection property="sixthDropDown" destination="VL6-YW-vX7" collectionClass="NSMutableArray" id="T9R-lm-kYy"/>
+                        <outletCollection property="sixthDropDown" destination="Qo5-ct-qLz" collectionClass="NSMutableArray" id="Eeu-6s-KFq"/>
+                        <outletCollection property="sixthDropDown" destination="2Ze-uE-Hhc" collectionClass="NSMutableArray" id="lv1-gi-HEm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -647,14 +841,14 @@
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" allowsDirectInteraction="YES"/>
                                 </accessibility>
-                                <mutableString key="text">      The women’s rights movement has been a major part of societies around the world almost since the beginning of societies themselves.                                            Whether it’s fighting for the right to an education or for equal payment, the goal of the movement has always been seeing women as equal to men. In the most recent years feminism has expanded to include women of color, disabled women, and transgender women. We at re:act strive to present events and legislations that include all women because if your feminism isn’t intersectional, it isn’t feminism at all.
+                                <string key="text">      The women’s rights movement has been a major part of societies around the world almost since the beginning of societies themselves.                                            Whether it’s fighting for the right to an education or for equal payment, the goal of the movement has always been seeing women as equal to men. In the most recent years feminism has expanded to include women of color, disabled women, and transgender women. We at re:act strive to present events and legislations that include all women because if your feminism isn’t intersectional, it isn’t feminism at all.
 
       From the recent abortion bans to the wage gap, women’s rights are threatened every single day. While reaching gender parity is and has been a goal for many years, we are still very far from reaching it. There are many issues within the women’s rights movement, and we’ll be explaining a number of them below.
 
    -Wage gap: On average, women make 80 cents for every dollar that white men earn. When broken down by ethnicity, the numbers get even scarier: Hispanic and/or Latina women earn 53 cents for every dollar, African American women make 61 cents for every dollar, white women (non-Hispanic) earn 77 cents for every dollar, Asian women earn 85 cents for every dollar, Native American women earn 58 cents for every dollar, and Pacific Islanders earn 62 cents for every dollar. This has always been an issue, but people do not recognize that it is still a prominent issue because we have advanced so far as a society. In reality, women are not paid fairly for their work and deserve to make money based on their skills and talents rather than their gender.
        -Reproductive rights: Recently, various states across the country began banning abortion, which is oppressive and removes a person’s freedom of choice when it comes to their own body. What some legislators do not realize is that banning abortions after the six-week mark - or at any point, for that matter - does not ban abortions. All that it does is ban safe abortions. People would turn to more harmful and potentially lethal forms of abortion if abortions were banned. Reproductive rights fall under the brand of healthcare, yet many legislators do not recognize this and continue to write laws that threaten freedom of choice. 
         -The menstrual movement: Nadya Okamoto, a young woman who has spent the last few years at the forefront of the menstrual movement, saw a pressing need for attention to be drawn to the lack of support that homeless and those who are less economically stable receive when it comes to menstruation. One of her core messages is that not all women are menstruators, and not all menstruators are women. Her goal is to destigmatize periods while advocating for those who are unable to purchase menstrual products on a regular basis. From placing free menstrual products in bathrooms to starting Period. - her non-profit organization - chapters at hundreds of schools across the country, she is making incredible strides for the menstrual movement. Along the way, she has encouraged thousands of people to join her - whether through her book, Period Power: A Manifesto for the Menstrual Movement, or her social media posts - in the fight to end period poverty and the stigma against periods. 
-     -Representation: In nearly every industry, men make up the majority of high-level positions. The entertainment industry is a prime example of this, as only 4% of the top 100 films in the last ten years were directed by women. In an effort to get more women directing films, shows, and other forms of media, TIME’S UP Now has created the 4% challenge, where actors publicly share their commitment to working with a female director within the next 18 months. While this may seem like a small step, it could bring more women to the forefront and create more opportunities for women in the entertainment industry in the future. In relation to other industries, this challenge shows people that coming together to create positive changes in terms of diversity and equality are feasible.</mutableString>
+     -Representation: In nearly every industry, men make up the majority of high-level positions. The entertainment industry is a prime example of this, as only 4% of the top 100 films in the last ten years were directed by women. In an effort to get more women directing films, shows, and other forms of media, TIME’S UP Now has created the 4% challenge, where actors publicly share their commitment to working with a female director within the next 18 months. While this may seem like a small step, it could bring more women to the forefront and create more opportunities for women in the entertainment industry in the future. In relation to other industries, this challenge shows people that coming together to create positive changes in terms of diversity and equality are feasible.</string>
                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -954,10 +1148,11 @@ Phenomenal Woman Action Campaign
         <image name="theissues" width="419" height="179"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Onm-oF-cQC"/>
         <segue reference="ILI-bc-Jts"/>
         <segue reference="e28-im-Bp1"/>
         <segue reference="oef-hE-i92"/>
-        <segue reference="CRW-nx-jzU"/>
+        <segue reference="acF-gF-clE"/>
         <segue reference="Fsg-3b-LLs"/>
         <segue reference="MKT-tu-rpG"/>
     </inferredMetricsTieBreakers>
