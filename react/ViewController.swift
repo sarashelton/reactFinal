@@ -12,10 +12,13 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     
     @IBOutlet var firstDropDown: [UIButton]!
     @IBOutlet var secondDropDown: [UIButton]!
+    
+    @IBOutlet var thirdDropDown: [UIButton]!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
     @IBAction func firstHandleSelection(_ sender: UIButton) {
         firstDropDown.forEach { (button) in
             UIView.animate(withDuration: 0.3
@@ -25,7 +28,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
             })
         }
     }
-    
     @IBAction func secondHandleSelection(_ sender: UIButton) {
         secondDropDown.forEach { (button2) in
             UIView.animate(withDuration: 0.3
@@ -35,11 +37,23 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
             })
         }
     }
+    
 
+    @IBAction func thirdHandleSelection(_ sender: UIButton) {
+        thirdDropDown.forEach { (button3) in
+            UIView.animate(withDuration: 0.3
+                , animations: {
+                    button3.isHidden = !button3.isHidden
+                    self.view.layoutIfNeeded()
+            })
+        }
+    }
     
     @IBAction func firstDropTapped(_ sender: UIButton) {
     }
     @IBAction func secondDropTapped(_ sender: UIButton) {
+    }
+    @IBAction func thirdDropTapped(_ sender: UIButton) {
     }
 }
 

@@ -177,15 +177,93 @@
                                                 <color key="backgroundColor" red="0.85882352941176465" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" red="0.21176470589999999" green="0.34901960780000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ppO-9E-GaL">
+                                                <rect key="frame" x="0.0" y="125" width="375" height="50"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1c-bA-qaK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.70196078431372544" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="Lmh-Va-QP0"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Bold" family="Frank Ruhl Libre" pointSize="25"/>
+                                                        <state key="normal" title="lgbt+">
+                                                            <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="thirdHandleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VRx-68-7eY"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TM-rD-DEf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.70196078431372544" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="r9M-MB-Clf"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="get informed">
+                                                            <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="thirdDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfl-BD-Iso"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2h-70-3n5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.70196078431372544" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="5tI-Hh-KTE"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="get involved">
+                                                            <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="thirdDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qom-pR-8ee"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRo-jJ-g51">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.70196078431372544" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="ogY-0F-z69"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="upcoming events">
+                                                            <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="thirdDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="olc-gv-rdj"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um0-Qx-OOZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                        <color key="backgroundColor" red="0.94901960784313721" green="0.70196078431372544" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="nKo-c3-Fb4"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="FrankRuhlLibre-Regular" family="Frank Ruhl Libre" pointSize="15"/>
+                                                        <state key="normal" title="wear your support">
+                                                            <color key="titleColor" red="0.38823529411764707" green="0.36862745098039218" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="thirdDropTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="idk-I7-TlR"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstItem="dKZ-Ex-9XV" firstAttribute="top" secondItem="cp3-hb-mkF" secondAttribute="top" constant="30" id="1KO-H1-Mqr"/>
                                             <constraint firstAttribute="trailing" secondItem="URU-OR-sNr" secondAttribute="trailing" id="33u-3x-kqE"/>
                                             <constraint firstItem="URU-OR-sNr" firstAttribute="top" secondItem="dKZ-Ex-9XV" secondAttribute="bottom" id="L3W-bD-9OC"/>
+                                            <constraint firstItem="ppO-9E-GaL" firstAttribute="top" secondItem="URU-OR-sNr" secondAttribute="bottom" id="Rk6-JG-f4j"/>
                                             <constraint firstAttribute="trailing" secondItem="dKZ-Ex-9XV" secondAttribute="trailing" id="bk9-NA-idY"/>
+                                            <constraint firstItem="ppO-9E-GaL" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="q2w-Ig-A5D"/>
                                             <constraint firstAttribute="height" constant="1000" id="sNn-vD-XIa"/>
                                             <constraint firstItem="URU-OR-sNr" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="vrl-CH-Eph"/>
+                                            <constraint firstAttribute="trailing" secondItem="ppO-9E-GaL" secondAttribute="trailing" id="x3g-7C-XoY"/>
                                             <constraint firstItem="dKZ-Ex-9XV" firstAttribute="leading" secondItem="cp3-hb-mkF" secondAttribute="leading" id="xpI-ga-K6m"/>
                                         </constraints>
                                     </view>
@@ -219,6 +297,10 @@
                         <outletCollection property="secondDropDown" destination="h2E-im-1rb" collectionClass="NSMutableArray" id="9Ah-in-XbU"/>
                         <outletCollection property="secondDropDown" destination="KG1-Zf-SrG" collectionClass="NSMutableArray" id="zI9-43-55s"/>
                         <outletCollection property="secondDropDown" destination="90n-wY-aro" collectionClass="NSMutableArray" id="myl-up-TLG"/>
+                        <outletCollection property="thirdDropDown" destination="9TM-rD-DEf" collectionClass="NSMutableArray" id="4kz-1V-uTx"/>
+                        <outletCollection property="thirdDropDown" destination="D2h-70-3n5" collectionClass="NSMutableArray" id="iy4-Ec-4ft"/>
+                        <outletCollection property="thirdDropDown" destination="qRo-jJ-g51" collectionClass="NSMutableArray" id="E7a-o5-J2l"/>
+                        <outletCollection property="thirdDropDown" destination="um0-Qx-OOZ" collectionClass="NSMutableArray" id="m4e-FJ-qa1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
